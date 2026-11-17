@@ -1,0 +1,83 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.VolumeIcon.icns
+
+# ---- Python bytecode / compiled ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---- Python source files (excluded as requested) ----
+*.py
+
+# ---- Jupyter ----
+*.ipynb
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+pyvenv.cfg
+
+# ---- Packaging / build ----
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+*.whl
+MANIFEST
+
+# ---- Testing / coverage / linting ----
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+
+# ---- Tooling ----
+.ipython/
+.pdm-python
+.pdm-build/
+__pypackages__/
+poetry.lock
+Pipfile.lock
+
+# ---- Env / secrets ----
+.env
+.env.*
+
+# ---- Logs ----
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---- IDEs ----
+.idea/
+.vscode/
+*.swp
